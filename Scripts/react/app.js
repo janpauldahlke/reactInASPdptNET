@@ -6,8 +6,13 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './src/components/Header.jsx';
+
 
 ReactDOM.render(
-  <h1>42 is still an answer</h1>,
+  <div>
+    <h1>hello world</h1>
+    <Header />
+  </div>,
   document.getElementById('root')
 )
