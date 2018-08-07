@@ -4,10 +4,11 @@
   "description": "a tryout",
   "main": "app.js",
   "scripts": {
-    "webpack:dev": "webpack-cli --mode=development --display-error-details",
+    "webpack:dev": "webpack-cli --mode=development --display-error-details --watch",
     "build": "webpack-cli --mode=production --display-error-deatails ",
-    "ts:watch": "echo wathcing typescript files && tsc --watch",
-    "foo": "echo foo",
+    "ts:watch": "echo wathcing typescript files & tsc --watch",
+    "dev": "npm run webpack:dev & npm run ts:watch",
+    "dev-server": "webpack-dev-server --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jdahlke",
@@ -18,11 +19,15 @@
   },
   "devDependencies": {
     "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.7",
+    "awesome-typescript-loader": "^5.2.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "typescript": "^3.0.1",
     "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   }
 }
