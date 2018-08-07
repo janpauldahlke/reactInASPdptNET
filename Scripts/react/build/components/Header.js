@@ -31,7 +31,8 @@ var Header = /** @class */ (function (_super) {
         return (React.createElement("div", { className: "header", style: HeaderStyle },
             React.createElement("ul", null,
                 React.createElement("li", null, "one"),
-                React.createElement("li", null, "two"))));
+                React.createElement("li", null, "two"),
+                React.createElement("li", null, "three"))));
     };
     return Header;
 }(React.Component));
