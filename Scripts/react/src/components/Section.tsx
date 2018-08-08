@@ -27,7 +27,7 @@ export default class Section extends React.Component<Section.Props, Section.Stat
         return this.myMathHelper.calculateRectangle(w,h)
     }
 
-    render() {
+    render() : JSX.Element{
 
         //a test comment
         console.log('circle', this.calculateCircle(5))

@@ -26,14 +26,14 @@ var React = __importStar(require("react"));
     height: '10vh',
     width: '98vw',
 } */
-var Footer = /** @class */ (function (_super) {
-    __extends(Footer, _super);
-    function Footer() {
+var Body = /** @class */ (function (_super) {
+    __extends(Body, _super);
+    function Body() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    Footer.prototype.render = function () {
-        return (React.createElement("div", { className: "footer" }, "Footer stuff and much more"));
+    Body.prototype.render = function () {
+        return (React.createElement("div", { className: "body" }, "body is here"));
     };
-    return Footer;
+    return Body;
 }(React.Component));
-exports.default = Footer;
+exports.default = Body;

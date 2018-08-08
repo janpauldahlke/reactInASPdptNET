@@ -97,8 +97,13 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\react\dist\index.html" />
+    <Content Include="Scripts\react\dist\main.js" />
+    <Content Include="Scripts\react\dist\react_libs.js" />
+    <Content Include="Scripts\react\dist\styles.css" />
     <Content Include="Scripts\react\src\components\Header.jsx" />
     <Content Include="Scripts\react\webpack.config.js" />
+    <Content Include="Views\index.html" />
     <Content Include="Web.config" />
     <Content Include="Scripts\react\package.json" />
   </ItemGroup>

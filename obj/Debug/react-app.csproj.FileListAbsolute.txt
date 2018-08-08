@@ -64,8 +64,8 @@ C:\Users\Jan\dev\repos\react-app\react-app\bin\System.Web.Webpages.Razor.xml
 C:\Users\Jan\dev\repos\react-app\react-app\bin\System.Web.Helpers.xml
 C:\Users\Jan\dev\repos\react-app\react-app\bin\System.Web.Mvc.xml
 C:\Users\Jan\dev\repos\react-app\react-app\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Jan\dev\repos\react-app\react-app\obj\Debug\react-app.csprojAssemblyReference.cache
 C:\Users\Jan\dev\repos\react-app\react-app\obj\Debug\react-app.csproj.CoreCompileInputs.cache
 C:\Users\Jan\dev\repos\react-app\react-app\obj\Debug\react-app.csproj.CopyComplete
 C:\Users\Jan\dev\repos\react-app\react-app\obj\Debug\react-app.dll
 C:\Users\Jan\dev\repos\react-app\react-app\obj\Debug\react-app.pdb
+C:\Users\Jan\dev\repos\react-app\react-app\obj\Debug\react-app.csprojAssemblyReference.cache

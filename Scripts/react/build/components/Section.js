@@ -16,8 +16,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
     result["default"] = mod;
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
+var myMath_1 = __importDefault(require("../helpers/myMath"));
 var SectionStyle = {
     backgroundColor: 'grey',
     height: '80vh'
@@ -25,10 +29,23 @@ var SectionStyle = {
 var Section = /** @class */ (function (_super) {
     __extends(Section, _super);
     function Section() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.myMathHelper = new myMath_1.default();
+        _this.calculateCircle = function (r) {
+            return _this.myMathHelper.calculateCircle(r);
+        };
+        _this.calcultateRectangle = function (w, h) {
+            return _this.myMathHelper.calculateRectangle(w, h);
+        };
+        return _this;
     }
     Section.prototype.render = function () {
-        return (React.createElement("div", { className: "section-body", style: SectionStyle }, "content"));
+        //a test comment
+        console.log('circle', this.calculateCircle(5));
+        console.log('rect', this.calcultateRectangle(5, 10));
+        return (React.createElement("div", { className: "section-body", style: SectionStyle },
+            React.createElement("section", null,
+                React.createElement("h5", null, "Calcualtion Result"))));
     };
     return Section;
 }(React.Component));

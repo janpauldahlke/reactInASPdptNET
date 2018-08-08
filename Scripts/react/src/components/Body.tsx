@@ -1,7 +1,6 @@
 import * as React from 'react'
 
-
-export namespace Footer{
+export namespace Body{
     export interface Props {
 
     }
@@ -19,11 +18,11 @@ export namespace Footer{
     width: '98vw',
 } */
 
-export default class Footer extends React.Component<Footer.Props, Footer.State> {
+export default class Body extends React.Component<Body.Props, Body.State> {
    render() {
        return (
-           <div className="footer" >
-                Footer stuff and much more
+           <div className="body" >
+                body is here
            </div>
        )
    }
